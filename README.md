@@ -6,10 +6,10 @@ Bash script to convert `.mov` videos to GIF animations based on [tskaggs/OSX-Con
 
 ### Prerequisites
 
-mov2gif depends on
+**mov2gif** depends on
 
-* ffmpeg
-* imagemagick
+* [ffmpeg](https://www.ffmpeg.org)
+* [imagemagick](https://www.imagemagick.org/script/index.php)
 
 Plese make sure they are installed on your system.
 
@@ -19,6 +19,8 @@ Plese make sure they are installed on your system.
 2. `make install`
 
 ## Usage
+
+For additional usage information please consider consulting the man page.
 
 ### Synopsis
 
