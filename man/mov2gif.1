@@ -1,0 +1,51 @@
+." vim: set syn=nroff
+.TH mov2gif 1 "February 2018" "mov2gif v1.0.0"
+
+.SH NAME
+mov2gif - Convert .mov to animated GIF.
+
+.SH SYNOPSIS
+mov2gif  [-hv]
+         [-o \fI\,ouput-path\fR] [-w \fI\,width\fR]
+         [\fI\,file.mov\fR]
+
+.SH DESCRIPTION
+\fI\,mov2gif\fR converts .mov files to animated GIF format.
+
+.SH PREREQUISITES
+\fI\,mov2gif\fR requires the following programs:
+
+.RS
+.IP ffmpeg .2i
+.IP imagemagick
+.RE
+
+Please make sure they are installed on your system.
+
+.SH OPTIONS
+-h, --help
+.RS
+display usage information.
+.RE
+
+-o \fIoutput-path\fR, --output \fIoutput-path\fR
+.RS
+set the path for the generated GIF animation. If the given path does not end in .gif, the extension is appended. If omitted the generated GIF file is saved next to the input file.
+.RE
+
+-v, --version
+.RS
+display version information.
+.RE
+
+-w \fIwidth\fR, --width \fIwidth\fR
+.RS
+set the width in pixel of the generated GIF animation. Height is inferred by input aspect ratio. If omitted width is set to input width.
+.RE
+
+.SH BUGS
+Report bugs to <https://github.com/haensl/mov2gif/issues>
+
+.SH AUTHOR
+Written by Hans-Peter Dietz <h.p.dietz@gmail.com>.
+
