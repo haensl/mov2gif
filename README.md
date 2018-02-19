@@ -18,6 +18,11 @@ Plese make sure they are installed on your system.
 1. Clone this repository
 2. `make install`
 
+### OSX
+
+1. `brew tap haensl/haensl`
+2. `brew install mov2gif`
+
 ## Usage
 
 For additional usage information please consider consulting the man page.

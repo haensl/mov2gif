@@ -2,7 +2,7 @@
 
 set -e
 
-readonly VERSION='1.0.0'
+readonly VERSION='1.0.1'
 readonly DEPENDENCIES=('ffmpeg' 'convert')
 readonly ARGS="$@"
 
